@@ -32,28 +32,58 @@
     background-repeat: no-repeat;
     background-size:100% 100%;
     /* 1921*891 */
-    
+    justify-content: flex-end;
 }
 
 #formContainer {
-    border: 2px solid green;
-    width: 70vw;
+    width: 65%;
     height: 100%;
+    padding-right: 0;
     align-items: center;
 }
 
 #formImagen {
-    width: 15%;
+    width: 10%;
+    max-width: 70px;
     margin: 5% 0 5% 0;
 }
 
 #formTitulo {
+    margin-bottom: 5%;
     color: #eee;
     font-size: 1.5rem;
     letter-spacing: 3px;
 }
 
+#form {
+    width: 100%;
+    align-items: center;
+}
 
+.formInput {
+    width: 70%;
+    height: 1.5rem;
+    margin: 3px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: green;
+    
+}
+
+#formTextArea {
+    height: 5rem;
+}
+
+.formInput::placeholder {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.formInput:active {
+    border: none;
+}
 
 /* FIN BLOQUE FORMULARIO CONTACTO */
 
