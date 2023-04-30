@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +22,48 @@ body {
 /* FIN BLOQUE CONTENEDOR TARJETAS */
 /* INICIO BLOQUE CLIENTES */
 /* FIN BLOQUE CLIENTES*/
+
+
 /* INICIO BLOQUE FORMULARIO CONTACTO */
+#formBlock {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("../img/recursos/formBackground.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* 1921*891 */
+    
+}
+
+#formContainer {
+    border: 2px solid green;
+    width: 70vw;
+    height: 100%;
+    align-items: center;
+}
+
+#formImagen {
+    width: 15%;
+    margin: 5% 0 5% 0;
+}
+
+#formTitulo {
+    color: #eee;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+
+
 /* FIN BLOQUE FORMULARIO CONTACTO */
+
+
+
+
+
+
+
+
+
 /* INICIO BLOQUE WHATSAPP */
 /* FIN BLOQUE WHATSAPP */
