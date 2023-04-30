@@ -1,7 +1,28 @@
 body {
-    background-color: #015;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #aaa;
+.flexCol {
+    display: flex;
+    flex-direction: column;
 }
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* INICIO BLOQUE HEADER */
+/* FIN BLOQUE HEADER */
+/* INICIO BLOQUE MAIN */
+/* FIN BLOQUE MAIN */
+/* INICIO BLOQUE CONTENEDOR TARJETAS */
+/* FIN BLOQUE CONTENEDOR TARJETAS */
+/* INICIO BLOQUE CLIENTES */
+/* FIN BLOQUE CLIENTES*/
+/* INICIO BLOQUE FORMULARIO CONTACTO */
+/* FIN BLOQUE FORMULARIO CONTACTO */
+/* INICIO BLOQUE WHATSAPP */
+/* FIN BLOQUE WHATSAPP */
