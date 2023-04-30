@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    color: black;
+    text-decoration: none;
+    font-size:25px;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: red;
+}
 
 .flexCol {
     display: flex;
@@ -13,9 +23,23 @@
     display: flex;
     flex-direction: row;
 }
-
 /* INICIO BLOQUE HEADER */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    margin: 0px 40px;
+}
+.nav-list{
+    align-items: center;
+}
+.nav-list li{
+    margin: 0px 20px;
+    
+}
 /* FIN BLOQUE HEADER */
+
+
 /* INICIO BLOQUE MAIN */
 /* FIN BLOQUE MAIN */
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
