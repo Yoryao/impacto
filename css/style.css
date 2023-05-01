@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
 a {
     color: black;
     text-decoration: none;
@@ -14,15 +23,6 @@ a:hover{
     color: red;
 }
 
-.flexCol {
-    display: flex;
-    flex-direction: column;
-}
-
-.flexRow {
-    display: flex;
-    flex-direction: row;
-}
 /* INICIO BLOQUE HEADER */
 .nav-bar{
     justify-content: space-between;
@@ -45,6 +45,55 @@ a:hover{
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
 /* FIN BLOQUE CONTENEDOR TARJETAS */
 /* INICIO BLOQUE CLIENTES */
+#clientesBlock {
+    border: 2px dotted red;
+    height: 70vh;
+    width: 100vw;
+    font-size: 0.8rem;
+    background-color: #1c110d;
+    background-image: url("../img/recursos/elementos-09.png");
+    background-repeat: no-repeat;
+    background-position:+85dvw;
+    background-size: 55vh;
+    
+
+}
+
+#mapContainer {
+    width: 60%;
+    border: 2px solid blue;
+}
+
+#clientesCardContainer {
+    width: 40%;
+    border: 2px solid green;
+    margin: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clientesCard {
+    height: 30%;
+    width: 70%;
+}
+
+.cardTitle {
+    margin-bottom: 5px;
+    color: #ededed    
+}
+
+.cardText{
+    color: #ededed;   
+}
+
+
+
+
+
+
+
+
 /* FIN BLOQUE CLIENTES*/
 
 
