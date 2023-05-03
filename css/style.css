@@ -22,6 +22,18 @@ a {
 a:hover{
     color: red;
 }
+.btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
 
 /* INICIO BLOQUE HEADER */
 .nav-bar{
@@ -43,6 +55,27 @@ a:hover{
 /* INICIO BLOQUE MAIN */
 /* FIN BLOQUE MAIN */
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
+.card-right-content{
+    height: 600px;
+    background-image:url('../img/recursos/pr-01.png') ;
+    background-position: center;
+    background-size:cover; 
+    background-repeat: no-repeat;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.card-content p {
+    padding: 30px 30px;
+    text-align: center;
+    
+}
 /* FIN BLOQUE CONTENEDOR TARJETAS */
 /* INICIO BLOQUE CLIENTES */
 #clientesBlock {
