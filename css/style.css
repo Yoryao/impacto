@@ -15,7 +15,7 @@
 a {
     color: black;
     text-decoration: none;
-    font-size:25px;
+    font-size:20px;
     font-weight: bold;
     
 }
@@ -57,7 +57,7 @@ a:hover{
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
 .card-right-content{
     height: 600px;
-    background-image:url('../img/recursos/pr-01.png') ;
+    background-image:url('../img/recursos/pr-v2-01.png') ;
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
@@ -70,11 +70,18 @@ a:hover{
     justify-content: center;
     color: white;
     align-items: center;
+    padding-top: 100px;
 }
 .card-content p {
-    padding: 30px 30px;
+    padding: 50px 30px;
     text-align: center;
+    width: 80%;
     
+}
+.card-icon{
+    position: relative;
+    bottom: 100px;
+    width: 150px;
 }
 /* FIN BLOQUE CONTENEDOR TARJETAS */
 /* INICIO BLOQUE CLIENTES */
