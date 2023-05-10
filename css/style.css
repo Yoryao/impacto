@@ -275,3 +275,11 @@ a:hover{
 
 
  /* FIN BLOQUE COPYRIGTH */
+ 
+/* INICIO BLOQUE FOOTER REDES */
+.contact-bar{
+    justify-content: center;
+    background-color: black;
+    height: 80px;
+}
+/* FIN BLOQUE FOOTER REDES */
