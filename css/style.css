@@ -53,6 +53,14 @@ a:hover{
 
 
 /* INICIO BLOQUE MAIN */
+main{
+    background-image:url('../img/recursos/p\ entregar\ ok-07.png');
+    
+    height: 600px;    
+    background-position: center;
+    background-size:cover; 
+    background-repeat: no-repeat;
+}
 /* FIN BLOQUE MAIN */
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
 .image-1{
