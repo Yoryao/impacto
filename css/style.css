@@ -1,7 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'roboto', 'sans-serif';
 }
 .flexCol {
     display: flex;
@@ -22,14 +26,14 @@ a {
 a:hover{
     color: red;
 }
-.btn{
+.btn-portfolio{
     width: 150px;
     height: 30px;
     border-radius: 50px;
     cursor: pointer;
     
 }
-.btn:hover{
+.btn-portfolio:hover{
     background-color: black;
     color: white;
     border-color: white;
@@ -60,6 +64,7 @@ main{
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
+    width: 100%;
 }
 /* FIN BLOQUE MAIN */
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
