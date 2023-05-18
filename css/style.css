@@ -58,14 +58,41 @@ a:hover{
 
 /* INICIO BLOQUE MAIN */
 main{
-    background-image:url('../img/recursos/p\ entregar\ ok-07.png');
+    background-image:url('../img/recursos/inicio\ c\ flecha\ 1360\ x\ 500-01.jpg');
     
     height: 600px;    
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
 }
+.red-block{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    opacity: 0.8;
+    
+}
+.titule-block{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    
+}
+.titule-block h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
 /* FIN BLOQUE MAIN */
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
 .image-1{
@@ -179,7 +206,12 @@ main{
 
 
 /* FIN BLOQUE CLIENTES*/
-
+/* inicio bloque carrousel */
+.carousel-inner{
+    padding: 10%;
+    background-color: #212A3E;
+}
+/* fin bloque carrousel */
 
 /* INICIO BLOQUE FORMULARIO CONTACTO */
 #formBlock {
