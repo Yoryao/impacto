@@ -325,8 +325,73 @@ main{
  
 /* INICIO BLOQUE FOOTER REDES */
 .contact-bar{
-    justify-content: center;
+    justify-content:space-around;
     background-color: black;
     height: 80px;
+    align-items: center;
 }
 /* FIN BLOQUE FOOTER REDES */
+/* ESTILOS LOGO DE WP */
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
+/* Actions */
+
+/* Actions */
+
+ul.actions {
+    margin: 0;
+}
+
+    ul.actions li {
+        display: block;
+        margin: 15px 0 0 0;
+    }
+
+        ul.actions li:first-child {
+            margin-top: 0;
+        }
+        form .actions:last-child {
+            margin-bottom: 0;
+        }
+        ul.actions {
+            list-style: none;
+            padding-left: 0;
+        }
+    
+ul.actions li {
+      display: inline-block;
+     margin: 0 0 0 1em;
+    padding-left: 0;
+            }
+    
+ ul.actions li:first-child {
+     margin-left: 0;
+    }
+                /* about us */
+.about-us{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 20px;
+}

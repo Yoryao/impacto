@@ -1,15 +1,21 @@
-console.log("app.js vinculado")
+//email js form
+const btn = document.getElementById('button');
 
-// comportamiento boton Formulario
-let botonEnviar = document.getElementById("formButton");
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
 
-let presionar = (e) => {
-    e.preventDefault();
-    console.log("Boton Presionado");
-}
+   btn.value = 'Sending...';
 
-botonEnviar.addEventListener("click", presionar);
+   const serviceID = 'default_service';
+   const templateID = 'template_9ps96dw';
 
-// fin boton formulario
-
-console.log("Se debe modificar la linea 56 en app.js.     background-position:+85dvw;");
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
