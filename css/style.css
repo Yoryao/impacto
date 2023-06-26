@@ -31,6 +31,7 @@ a:hover{
     height: 30px;
     border-radius: 50px;
     cursor: pointer;
+    display: none;
     
 }
 .btn-portfolio:hover{
@@ -40,7 +41,7 @@ a:hover{
 }
 
 /* INICIO BLOQUE HEADER */
-.nav-bar{
+/* .nav-bar{
     justify-content: space-between;
     align-items: center;
     height: 160px;
@@ -52,6 +53,9 @@ a:hover{
 .nav-list li{
     margin: 0px 20px;
     
+} */
+.nav-link:hover{
+    color: red !important;
 }
 /* FIN BLOQUE HEADER */
 
@@ -96,28 +100,28 @@ main{
 /* FIN BLOQUE MAIN */
 /* INICIO BLOQUE CONTENEDOR TARJETAS */
 .image-1{
-    background-image:url('../img/recursos/1.jpg');
+    background-image:url('../img/recursos/card1.jpg');
     height: 600px;    
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
 }
 .image-2{
-    background-image:url('../img/recursos/2.jpg');
+    background-image:url('../img/recursos/card2.jpg');
     height: 600px;    
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
 }
 .image-3{
-    background-image:url('../img/recursos/3.jpg');
+    background-image:url('../img/recursos/card3.jpg');
     height: 600px;    
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
 }
 .image-4{
-    background-image:url('../img/recursos/4.jpg');
+    background-image:url('../img/recursos/card4.jpg');
     height: 600px;    
     background-position: center;
     background-size:cover; 
@@ -385,10 +389,56 @@ ul.actions li {
  ul.actions li:first-child {
      margin-left: 0;
     }
-                /* about us */
-.about-us{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding-top: 20px;
+/* hidden animation  */
+.hidden{
+    opacity: 0;
+    transition:all 1s;
+    
+}
+.show{
+    opacity: 1;
+    
+}
+/* estilos para tamaño de pantalla por debajo de los 700px */
+@media (max-width: 880px){
+    /* INICIO BLOQUE CONTENEDOR TARJETAS */
+.image-1{
+    background-image:url('../img/recursos/cardmobile-01.jpg');
+    height: 800px; 
+}
+.image-2{
+    background-image:url('../img/recursos/cardmobile-02.jpg');
+    height: 800px; 
+}
+.image-3{
+    background-image:url('../img/recursos/cardmobile-03.jpg');
+    height: 800px; 
+}
+.image-4{
+    background-image:url('../img/recursos/cardmobile-04.jpg');
+    height: 800px;    
+    
+}
+
+.card-content{    
+    
+    justify-content: flex-end;    
+}
+.left-content{    
+    right: 0%;
+}
+.right-content{
+    margin-left: 0%;
+    
+}
+
+.card-content p {    
+    width: 80% !important;
+    
+}
+
+/* FIN BLOQUE CONTENEDOR TARJETAS */
+/* INICIO BLOQUE HEADER */
+
+/* FIN BLOQUE HEADER */
 }
