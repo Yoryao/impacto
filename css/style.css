@@ -490,3 +490,17 @@ ul.actions li {
     text-align: center;
 }
 }
+@media (min-width: 1336px) {
+    .image-1{
+        height: 800px;
+    }
+    .image-2{
+        height: 800px;
+    }
+    .image-3{
+        height: 800px;
+    }
+    .image-4{
+        height: 800px;
+    }
+  }
